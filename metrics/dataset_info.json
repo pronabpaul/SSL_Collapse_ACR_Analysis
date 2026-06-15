@@ -1,0 +1,19 @@
+{
+    "source": "RetinaMNIST",
+    "target": "IDRiD",
+    "task": "5\u2011class DR grading",
+    "source_classes": 5,
+    "target_classes": 5,
+    "source_train_size": 864,
+    "source_val_size": 216,
+    "source_test_size": 400,
+    "target_train_size": 273,
+    "target_val_size": 91,
+    "target_test_size": 91,
+    "image_size": [
+        224,
+        224
+    ],
+    "seed": 42,
+    "splits": "source stratified 80/20, IDRiD stratified 60/20/20"
+}
