@@ -1,0 +1,35 @@
+# Python & Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Project data and large outputs
+data/
+features/
+checkpoints/
+logs/
+metrics/*.csv
+metrics/*.json
+exports/
+
+# Generated figures
+figures/*.png
+figures/*.pdf
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Colab default folder
+sample_data/
